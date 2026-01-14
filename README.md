@@ -18,19 +18,20 @@ were performed before training the models.
   - Decision Tree
   - Random Forest
   - XGBoost
-- Evaluated models using accuracy
+- Evaluated models using accuracy with ROC-AUC
 - Selected the best-performing model based on results
 
 ## Results
-Random Forest achieved the highest accuracy among the tested models and was
+XGBoost achieved the highest accuracy among the tested models and was
 chosen as the final model for credit risk prediction.
 
 ## Key Learnings
 - Importance of comparing multiple models
 - Understanding trade-offs between model complexity and performance
 - Feature selection significantly impacts model performance
+- How the parameter tuning improves the model accuracy
 
 ## Future Improvements
 - Hyperparameter tuning
-- Use additional evaluation metrics such as ROC-AUC
 - Deploy the model as a REST API
+- host in AWS EC2
